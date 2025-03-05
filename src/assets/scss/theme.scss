@@ -1,0 +1,24 @@
+/* Bootstrap setup */
+@import '~bootstrap/scss/functions';
+/* Muze setup */
+@import 'muze/variables';
+@import 'themes/utilities';
+/* Bootstrap core */
+@import '~bootstrap/scss/bootstrap';
+@import '~react-dates/lib/css/_datepicker.css';
+
+@import 'simplebar-react/dist/simplebar.min.css';
+@import 'muze/muze';
+@import 'muze/dark-mode';
+
+@import 'themes/fonts';
+@import 'themes/icomoon';
+@import 'themes/header';
+@import 'themes/footer';
+@import 'themes/sidebar';
+@import 'themes/form';
+@import 'themes/button';
+@import 'themes/custom';
+@import './nprogress';
+
+

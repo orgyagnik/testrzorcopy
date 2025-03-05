@@ -1,0 +1,150 @@
+.navbar-vertical{
+  &.navbar-expand-lg {
+    width: 240px;
+    transition: all .3s ease-out;
+    z-index: 1081;
+    background-color: white;
+    padding-left: 0;
+    padding-right: 0;
+    @at-root .sidebar-icons &{
+      transition: all .3s ease-out;
+      width: 80px;
+    }
+    .navbar-brand{
+      padding-top: 13px;
+      padding-bottom: 13px;
+      background-color: white;
+      border-bottom: 1px solid white;
+      width: calc(100% - 2px);
+      .taskme-logo-main{
+        height: 35px;
+        margin-left: 14px;
+      }
+      .white-logo2{
+        height: 35px;
+        margin-left: 14px;
+      }
+    }
+  }
+  .navbar-nav{
+    .nav-item{
+      .nav-link{
+        .color-icon{
+          width: 24px;
+          height: 24px;
+          display: block;
+          font-size: 12px;
+          background-color: rgba($primary, 0.2);
+          border-radius: 50%;
+          text-align: center;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          margin-right: 10px;
+          i{
+            color: $primary;
+            margin: 0;
+          }
+          img{
+            height: 12px;
+            width: auto;
+            max-height: 12px;
+            margin: 0;
+          }
+          &.blue-color-icon{
+            background-color: rgba($primary, 0.2);
+            i{
+              color: $primary;
+            }
+          }
+          &.pink-color-icon{
+            background-color: rgba($pink, 0.2);
+            i{
+              color: $pink;
+            }
+          }
+          &.orange-color-icon{
+            background-color: rgba($orange, 0.2);
+            i{
+              color: $orange;
+            }
+          }
+          &.indigo-color-icon{
+            background-color: rgba($indigo, 0.2);
+            i{
+              color: $indigo;
+            }
+          }
+          &.white-color-icon{
+            background-color: rgba($white, 0.1);
+            i{
+              color: $white;
+            }
+            .charchter-icon{
+              color: $white;
+            }
+          }
+        }
+      }
+      &.sidebar-menu-collapse{
+        margin-top: 30px;
+        > .nav-link{
+          font-weight: $font-weight-medium;
+          color: $dark-6;
+        }
+        .sidebar-menu-collapse-item{
+          color: $dark-5;
+          background-color: transparent;
+          font-size: 12px;
+          text-transform: uppercase;
+        }
+        .nav{
+          .nav-item{
+            &.favorites-task-items{
+              position: relative;
+              overflow: hidden;
+              .delete-task{
+                position: absolute;
+                top: 50%;
+                right: 0;
+                z-index: 1;
+                transform: translate(100%, -50%);
+                transition: all 0.3s ease-out;
+                display: block;
+                cursor: pointer;
+              }
+              &:hover{
+                .delete-task{
+                  transform: translate(0%, -50%);
+                }
+              }
+            }
+            .nav-link{
+              
+            }
+          }
+        }
+      }
+      &.sidebar-search{
+        .search-box {
+          min-width: 190px;
+          .input-group {
+            width: 190px;
+          }
+        }
+        .btn-icon {
+          width: 2.286rem;
+          height: 2.286rem;
+        }
+      }
+    }
+  } 
+  
+}
+
+.main-content, .header-fixed {
+  transition: all .3s ease-out;
+  @at-root .sidebar-icons &{
+    transition: all .3s ease-out;
+  }
+}

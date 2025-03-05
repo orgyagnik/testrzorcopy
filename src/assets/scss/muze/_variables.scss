@@ -1,0 +1,303 @@
+/* Muze Variables */
+$root-path:                                                 "../";
+$font-family-base:                                          'Outfit', sans-serif !default;
+/* Muze Color Variables */
+$dark-text: #1A1919;
+//$light: #f8fcfc;
+$light-100: #f3f3f3;
+//$light-gray: #e4eaec;
+$black-800: #121111;
+//$black-700: #111111;
+$black-600: #1e1e1e;
+//$black-400: #464646;
+$lighter-light: #F0F0F0;
+//$red-light: #FF3B23;
+//$black-500: #484E53;
+$orange-light: #FFE4CD;
+$purple-light: #E4D3FF;
+$green-light: #ACFFD3;
+$cyan-light: #79D4DB;
+
+$gray-150: #ADB5BD;
+$blue-50: #E6F0FF;
+$indigo-50: #e8ddfd;
+$purple-50: #e8ddff;
+$pink-50: #ffddee;
+$red-50: #ffe1e3;
+$yellow-50: #faf0cd;
+$teal-50: #dcfff5;
+$orange-50: #ffead7;
+$green-50: #ddf4e2;
+$cyan-50: #dafbff;
+$orange-150: #FFEAD8;
+$green-80: #D3FFE7;
+$purple-80: #EFE5FF;
+$orange-80: #FFEDDE;
+$indigo-light: #975CF6;
+$dnd: #E25563;
+$away: #FD933A;
+/* Muze Font Weight Variables */
+$font-weight-semibold: 600;
+$font-weight-medium: 500;
+$font-weight-normal: normal;
+/* Muze Transition Variables */
+$transition4: all ease .4s;
+
+
+
+
+// New color
+$dark-1:         #323338;
+$dark-2:         #46474C;
+$dark-3:         #5B5C60;
+$dark-4:         #6F7074;
+$dark-5:         #848588;
+$dark-6:         #98999B;
+$dark-7:         #ADADAF;
+$dark-8:         #C1C2C3;
+$dark-9:         #D6D6D7;
+$dark-10:        #EAEBEB;
+$dark-11:        #F5F6F8;
+$dark-12:        #F8F8F8;
+$dark-13:        #f1f5f9;
+
+$black:          #2B343B;
+$black-1:        #1E272E;
+$black-2:        #222B32;
+$black-3:        #384047;
+$black-4:        #1e293b;
+$black-5:        #334155;
+
+
+// scss-docs-start gray-color-variables
+$white:          #fff !default;
+$gray-50:        #fbfbfb !default;
+$gray-100:       #E8ECEE !default;
+$gray-110:       #e9ebf0 !default;
+$gray-200:       #D5D6D7 !default;
+$gray-300:       #CECFD0 !default;
+$gray-400:       #A9ACAE !default;
+$gray-500:       #878B8F !default;
+
+// Boots
+$gray-600:       #6c757d !default;
+$gray-700:       #495057 !default;
+$gray-800:       #343a40 !default;
+$gray-900:       #212529 !default;
+$black:          #000 !default;
+// scss-docs-end gray-color-variables
+
+$light-green:    #E5FAF1;
+
+// fusv-disable
+// scss-docs-start gray-colors-map
+$grays: (
+  "50": $gray-50,
+  "100": $gray-100,
+  "200": $gray-200,
+  "300": $gray-300,
+  "400": $gray-400,
+  "500": $gray-500,
+  //Boots
+  "600": $gray-600,
+  "700": $gray-700,
+  "800": $gray-800,
+  "900": $gray-900
+) !default;
+// scss-docs-end gray-colors-map
+// fusv-enable
+
+// scss-docs-start color-variables
+
+$blue:     #7152F3 !default; //main - boots 
+$indigo:   #5F48EA !default; //
+$purple:   #A338D6 !default; //
+$pink:     #E64D4D !default; //
+$red:      #EC4141 !default; //
+$red1:     #E44258;
+$orange:   #FFB131 !default; //
+$orange-1: #FA8036 !default;
+$yellow:   #FFC800 !default; //
+$green:    #27AE60 !default; //
+$teal:     #00CA72 !default; //
+$cyan:     #08C7E0 !default; //
+// scss-docs-end color-variables
+
+// scss-docs-start colors-map
+$colors: (
+  "blue":       $blue,
+  "indigo":     $indigo,
+  "purple":     $purple,
+  "pink":       $pink,
+  "red":        $red,
+  "orange":     $orange-1,
+  "yellow":     $yellow,
+  "green":      $green,
+  "teal":       $teal,
+  "cyan":       $cyan,
+  "white":      $white,
+  "gray":       $gray-600,
+  "gray-dark":  $gray-800,
+  "dark":  $dark-1,
+) !default;
+// scss-docs-end colors-map
+
+// scss-docs-start theme-color-variables
+$primary:       $blue !default;
+$secondary:     $gray-600 !default;
+$success:       $green !default;
+$info:          $cyan !default;
+$warning:       $orange-1 !default;
+$danger:        $red !default;
+$light:         $gray-100 !default;
+$dark:          $dark-1 !default;
+$teal:          $teal !default;
+// scss-docs-end theme-color-variables
+
+// scss-docs-start theme-colors-map
+$theme-colors: (
+  "primary":    $primary,
+  "secondary":  $secondary,
+  "success":    $success,
+  "info":       $info,
+  "warning":    $warning,
+  "danger":     $danger,
+  "light":      $light,
+  "dark":       $dark,
+  "teal":       $success,
+) !default;
+// scss-docs-end theme-colors-map
+
+// scss-docs-start theme-colors-rgb
+$theme-colors-rgb: map-loop($theme-colors, to-rgb, "$value") !default;
+// scss-docs-end theme-colors-rgb
+
+// The contrast ratio to reach against white, to determine if color changes from "light" to "dark". Acceptable values for WCAG 2.0 are 3, 4.5 and 7.
+// See https://www.w3.org/TR/WCAG20/#visual-audio-contrast-contrast
+$min-contrast-ratio:   4.5 !default;
+
+// Customize the light and dark text colors for use in our color contrast function.
+$color-contrast-dark:      $black !default;
+$color-contrast-light:     $white !default;
+
+// fusv-disable
+
+
+$cyan-50: tint-color($cyan, 50%) !default;
+$cyan-100: tint-color($cyan, 30%) !default;
+$cyan-200: tint-color($cyan, 20%) !default;
+$cyan-300: tint-color($cyan, 10%) !default;
+$cyan-400: tint-color($cyan, 0.05%) !default;
+$cyan-500: $cyan !default;
+$cyan-600: shade-color($cyan, 10%) !default;
+$cyan-700: shade-color($cyan, 20%) !default;
+$cyan-800: shade-color($cyan, 30%) !default;
+$cyan-900: shade-color($cyan, 40%) !default;
+$cyan-1000: shade-color($cyan, 50%) !default;
+
+
+$cyans: (
+  "cyan-50": $cyan-50,
+  "cyan-100": $cyan-100,
+  "cyan-200": $cyan-200,
+  "cyan-300": $cyan-300,
+  "cyan-400": $cyan-400,
+  "cyan-500": $cyan-500,
+  "cyan-600": $cyan-600,
+  "cyan-700": $cyan-700,
+  "cyan-800": $cyan-800,
+  "cyan-900": $cyan-900,
+  "cyan-1000": $cyan-1000,
+) !default;
+
+
+$border-radius-20: 20px;
+
+// scss-docs-start border-radius-variables
+$border-radius:               .25rem !default;
+$border-radius-sm:            .2rem !default;
+$border-radius-lg:            .3rem !default;
+$border-radius-pill:          50rem !default;
+
+
+
+$spacer: 16px !default;
+$spacers: () !default;
+// stylelint-disable-next-line scss/dollar-variable-default
+$spacers: map-merge(
+  (
+    0: 0,
+    1: ($spacer * .25),    //4px
+    2: ($spacer * .5),     //8px
+    3: ($spacer * .75),    //12px
+    4: $spacer,            //16px
+    5: ($spacer * 1.25),   //20px
+    6: ($spacer * 1.50),   //24px
+    7: ($spacer * 1.75),   //28px
+    8: ($spacer * 2),      //32px
+    9: ($spacer * 2.25),   //36px
+    10: ($spacer * 2.5),   //40px
+    11: ($spacer * 2.75),  //44px
+    12: ($spacer * 3),     //48px
+    13: ($spacer * 3.25),  //52px
+    14: ($spacer * 3.5),   //56px
+    15: ($spacer * 3.75) , //60px
+    16: ($spacer * 4),     //64px
+    17: ($spacer * 4.25),  //68px
+    18: ($spacer * 4.5),   //72px
+    19: ($spacer * 4.75),  //76px
+    20: ($spacer * 5),     //80px
+    21: ($spacer * 5.25),  //84px
+    22: ($spacer * 5.5),   //88px
+    23: ($spacer * 5.75),  //92px
+    24: ($spacer * 6),     //96px
+    25: ($spacer * 6.25),  //100px
+    26: ($spacer * 6.5),   //104px
+    27: ($spacer * 6.75),  //108px
+    28: ($spacer * 7),      //112px
+    29: ($spacer * 7.25),   //116px
+    30: ($spacer * 7.5),    //120px
+    31: ($spacer * 7.75),   //124px
+    32: ($spacer * 8),     //128px
+    33: ($spacer * 8.25),   //132px
+    34: ($spacer * 8.5),    //136px
+    35: ($spacer * 8.75),   //140px
+    36: ($spacer * 9)      //144px
+    
+  ),
+  $spacers
+);
+
+
+// scss-docs-start grid-breakpoints
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px,
+  xxxl: 1600px
+) !default;
+// scss-docs-end grid-breakpoints
+
+@include _assert-ascending($grid-breakpoints, "$grid-breakpoints");
+@include _assert-starts-at-zero($grid-breakpoints, "$grid-breakpoints");
+
+
+// Grid containers
+//
+// Define the maximum width of `.container` for different screen sizes.
+
+// scss-docs-start container-max-widths
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px,
+  xxl: 1320px,
+  xxxl: 1560px,
+) !default;
+// scss-docs-end container-max-widths
+
+@include _assert-ascending($container-max-widths, "$container-max-widths");

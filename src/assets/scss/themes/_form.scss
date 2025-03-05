@@ -1,0 +1,277 @@
+label {
+    color: $dark-5;
+    font-weight: $font-weight-medium !important;
+    margin-bottom: 0.714rem;
+}
+.form-check{
+    label {
+        margin-bottom: 0;
+    }
+}
+
+body {
+    .custom-timepicker {
+        color: $dark-1;
+        border: $input-border-width solid $gray-100;
+        border-radius: 0.357rem;
+        min-height: 38px;
+        padding: 5px 10px;
+
+        &:hover {
+            border-color: $gray-100;
+        }
+
+        &:focus {
+            box-shadow: none;
+        }
+
+        .react-time-picker__wrapper {
+            border: 0;
+
+            svg {
+                stroke: $dark-1;
+            }
+        }
+    }
+
+    .custom-select {
+        >div {
+            color: $dark-1;
+            border: $input-border-width solid $gray-100;
+            border-radius: 0.357rem;
+            min-height: 48px;
+
+            &:hover {
+                border-color: $gray-100;
+            }
+
+            &:focus {
+                box-shadow: none;
+            }
+        }
+
+        .css-1nmdiq5-menu,
+        .select__menu {
+            background-color: $white !important;
+            box-shadow: 0px 8px 16px rgba(33, 30, 30, 0.16);
+            border-radius: 0.714rem;
+            border: none;
+        }
+
+        &.bg-transparent {
+            >div.select__control {
+                border-color: transparent !important;
+                background-color: transparent;
+                font-size: 12px;
+                font-weight: 500;
+                height: unset;
+                min-height: unset;
+
+                &:hover,
+                &:focus {
+                    box-shadow: none !important;
+                    outline: 0 !important;
+                    border-color: transparent !important;
+                }
+
+                >div {
+                    padding: 0;
+                }
+            }
+
+            .select__indicators {
+                .select__dropdown-indicator {
+                    padding: 0;
+                    color: $dark-2;
+
+                    svg {
+                        display: none;
+                    }
+
+                    &:after {
+                        display: inline-block;
+                        margin-left: 0.255em;
+                        vertical-align: 0.255em;
+                        content: "";
+                        border-top: 0.3em solid;
+                        border-right: 0.3em solid transparent;
+                        border-bottom: 0;
+                        border-left: 0.3em solid transparent;
+                    }
+                }
+            }
+
+            .css-1nmdiq5-menu,
+            .select__menu {
+                margin-top: 0.3125rem !important;
+                min-width: 300px;
+                right: 0 !important;
+                left: unset;
+            }
+        }
+    }
+
+    .control-md {
+        &.custom-select>div {
+            min-height: 38px;
+        }
+    }
+
+    .visual-text-area {
+        .custom-select>div {
+            border: transparent;
+        }
+
+        &:hover,
+        &:focus {
+            .custom-select>div {
+                border-color: $gray-400 !important;
+            }
+        }
+
+    }
+
+    // File attachment
+    .lkjDVC {
+        border: $input-border-width solid $gray-100;
+        min-width: 310px;
+        max-width: 410px;
+        height: 48px;
+        border-radius: 0.357rem;
+        color: $dark-1;
+        padding: 0.944rem 0.75rem;
+
+        &:hover {
+            border-color: $gray-100;
+        }
+
+        /* border: dashed 2px #0658c2; */
+        svg {
+            margin-right: 10px;
+
+            path {
+                fill: $primary;
+            }
+        }
+    }
+
+    .custom-flie-input {
+        height: 70px;
+        border-radius: 0.357rem;
+        color: $dark-1;
+        padding: 1.6rem 2rem;
+        border: $input-border-width solid $gray-100;
+        font-weight: 400;
+        background-color: #fff;
+
+        // border: 1px dashed $primary;
+        //  background-color: rgba($primary, 0.10);
+        span {
+            caret-color: transparent;
+            font-weight: 400;
+
+            i {
+                color: $primary;
+            }
+        }
+    }
+}
+
+.css-1u9des2-indicatorSeparator {
+    display: none;
+}
+
+.inputgroup-default {
+    .form-control {
+        height: auto;
+
+        &:disabled {
+            background-color: $dark-11;
+        }
+    }
+
+    .input-group-text {
+        border: $input-border-width solid $gray-100;
+        background-color: $dark-11;
+    }
+}
+.input-group{
+    .btn-outline-secondary{
+        border-color: $gray-100;
+        color: $dark-7;
+        &:hover, &:focus{
+            color: $white;
+        }
+    }
+    > :not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(.valid-feedback):not(.invalid-tooltip):not(.invalid-feedback):not([type=search]) {
+        height: unset;
+    }
+}
+
+
+body {
+    .css-1jqq78o-placeholder {
+        color: $dark-2;
+    }
+}
+
+.check-round {
+    .form-check-input {
+        border-radius: 50%;
+    }
+}
+
+.check-green {
+    .form-check-input {
+        &:checked {
+            background-color: $green;
+            border-color: $green;
+        }
+    }
+}
+
+.custom-time-picker{
+    max-width: 110px;
+    min-width: 110px;
+    .date-picker-clear{
+        position: absolute;
+        top: 10px;
+        right: 10px;
+    }
+}
+
+::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
+    color: $dark-6 !important;
+}
+
+::-moz-placeholder {
+    /* Firefox 19+ */
+    color: $dark-6 !important;
+}
+
+:-ms-input-placeholder {
+    /* IE 10+ */
+    color: $dark-6 !important;
+}
+
+:-moz-placeholder {
+    /* Firefox 18- */
+    color: $dark-6 !important;
+}
+
+.is-react-select-invalid>.react-select__control {
+    border: 1px solid $red !important;
+}
+
+.is-dropdown-invalid {
+    border: 1px solid $red !important;
+}
+
+.is-timepicker-invalid {
+    border: 1px solid $red !important;
+}
+
+.is-tinymce-editor-invalid {
+    border: 1px solid $red !important;
+}

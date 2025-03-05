@@ -1,0 +1,370 @@
+.pageLoader {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.datepicker-custom-control {
+    padding: 2px;
+}
+
+.datepicker-custom-control select,
+.datepicker-custom-control input {
+    padding: 5px;
+    border: 1px solid #E8ECEE;
+}
+
+.attachment_div {
+    width: 100%;
+}
+
+.attachment_div .card {
+    background-color: #f8f9fa;
+}
+
+.attachment_div .card-containe {
+    margin: 0;
+}
+
+.people-card .btn-icon-edit {
+    right: 40px;
+}
+
+.people-card .btn-icon-link {
+    right: 80px;
+}
+
+.people-card .btn-icon-login {
+    right: 120px;
+}
+
+.validation-required .form-label:after,
+.validation-required-direct:after {
+    content: "*";
+    margin-left: 2px;
+    color: red;
+}
+
+.comments-detail {
+    width: 100%;
+}
+
+.add-favorite {
+    cursor: pointer;
+    color: #0d6efd;
+}
+
+.line-through {
+    text-decoration: line-through !important;
+}
+
+.plan-banner .plan-card .form-check-input:checked~.form-check-label {
+    background-color: #fbfbfb;
+    border-color: #848588 !important;
+}
+
+.plan-banner .plan-card .form-check-input:checked~.form-check-label .btn-soft-primary {
+    background-color: #0d6efd !important;
+    color: #fff;
+}
+
+.btn-clear-coupon {
+    position: absolute !important;
+    right: 100px;
+    top: 5px;
+    padding: 0 !important;
+}
+
+.card-view {
+    background: #888;
+    padding: 30px;
+    border-radius: 15px;
+    color: #ffffff;
+    font-size: 14px;
+    text-transform: uppercase;
+    max-width: 450px;
+    margin: 15px 0;
+    -webkit-box-shadow: 5px 20px 25px rgb(0 0 0 / 30%);
+    box-shadow: 5px 20px 25px rgb(0 0 0 / 30%);
+    opacity: 0.5;
+    position: relative;
+}
+
+.card-view.active {
+    opacity: 1;
+    cursor: unset;
+    background: #a500ec;
+    background: -webkit-gradient(left top, right bottom, color-stop(0%, #a500ec), color-stop(74%, #4129c6), color-stop(100%, #0043ae));
+    background: -webkit-linear-gradient(-45deg, #a500ec 0%, #4129c6 74%, #0043ae 100%);
+    background: -webkit-linear-gradient(315deg, #a500ec 0%, #4129c6 74%, #0043ae 100%);
+    background: linear-gradient(135deg, #a500ec 0%, #4129c6 74%, #0043ae 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#a500ec', endColorstr='#0043ae', GradientType=1);
+}
+
+.card-view .card-logo {
+    margin: 15px 0;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.card-view .card-number {
+    margin: 15px 0 20px 0;
+}
+
+.card-view label {
+    opacity: 0.7;
+    margin-bottom: 0px;
+    color: #fff;
+}
+
+.card-view .value-view {
+    font-size: 18px;
+    letter-spacing: 5px;
+    word-spacing: 8px;
+    text-shadow: 0 2px 2px #252525;
+}
+
+.card-view .card-detail {
+    display: flex;
+}
+
+.card-view .view-card-details {
+    letter-spacing: 2px;
+    font-size: 18px;
+    text-shadow: 0 2px 2px #252525;
+}
+
+.card-view .cvv {
+    margin-left: auto;
+}
+
+.card-view .cvv .view-card-details {
+    font-size: 42px;
+    font-family: Schibsted Grotesk;
+    line-height: 18px;
+    letter-spacing: 2px;
+    font-size: 18px;
+    text-shadow: 0 2px 2px #252525;
+}
+
+.card-view .delete-data-card {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    box-shadow: none;
+    border: none;
+    background-color: transparent;
+    color: #FFF;
+    font-size: 20px;
+}
+
+.data-not-found {
+    border: 1px solid #e8ecee !important;
+    padding: 10px !important;
+}
+
+.data-not-found>p {
+    margin: 0;
+    text-align: center;
+}
+
+.original_price_strike {
+    color: red;
+    position: relative;
+    font-size: 16px;
+    margin-right: 20px;
+}
+
+.original_price_strike:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background: #000000;
+    top: 10px;
+    left: 0;
+    transform: rotate(-15deg);
+}
+
+.w-95 {
+    width: 95% !important;
+}
+
+/* Plan Subscription details page */
+.site-addon-banner.plan-banner {
+    box-shadow: none;
+}
+
+.plan-banner {
+    margin-bottom: 20px;
+    box-shadow: 8px 8px 15px rgb(0 0 0 / 10%);
+}
+
+.plan-banner h4 {
+    font-size: 32px;
+    font-weight: 500;
+    margin: 30px 0 15px 0;
+}
+
+.plan-banner .descriptions {
+    padding: 0 15%;
+    margin: 0 0 30px 0;
+    font-size: 14px;
+}
+
+.site-addon-banner.plan-banner .plan-row {
+    margin-bottom: -30px;
+    margin-top: 30px;
+}
+
+.site-addon-banner.plan-banner .plan-col {
+    margin-bottom: 30px;
+}
+
+.plan-banner .plan-card {
+    padding: 40px 30px;
+    border-radius: 10px;
+    text-align: center;
+    border: 7px double#626f80;
+    box-shadow: 0 0 5px 0 rgb(0 0 0 / 20%);
+    overflow: hidden;
+    position: relative;
+    height: 100%;
+}
+
+.plan-banner .plan-card-content {
+    position: relative;
+    z-index: 1;
+}
+
+.plan-banner .plan-card-icon {
+    border: 3px solid #fff;
+    background: #51647c;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto 0 auto;
+    box-shadow: 0 0 0 4px #51647c;
+}
+
+.plan-banner .plan-card-icon img {
+    /*vertical-align: middle;*/
+    max-width: 55%;
+    display: block;
+    margin: 0 auto;
+}
+
+.plan-banner h2 {
+    margin: 20px 0;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.plan-banner .plan-card p {
+    margin-bottom: 30px;
+    font-size: 18px;
+}
+
+.plan-banner .plan-card .btn {
+    margin: 3px;
+}
+
+/* =============================== */
+
+.static-data-custom-table .rdt_TableCell div:first-child {
+    white-space: pre-line !important;
+}
+
+.static-datatable-card-body header {
+    padding: 0;
+}
+
+.list-table-task-name .task-rating i {
+    color: #98999B !important;
+    margin: 0 1px;
+}
+
+.list-table-task-name .task-rating i.icon-star {
+    color: #FFB131 !important;
+}
+
+.pointer-events-none {
+    pointer-events: none;
+}
+
+.react-time-picker {
+    background-color: #fff;
+}
+
+.comments-body .simplebar-mask,
+.comments-body .simplebar-offset {
+    position: relative !important;
+}
+
+.comments-body .comment-area.mt-12 {
+    margin: 0 !important;
+}
+
+.work-report-task-group .form-control {
+    height: auto;
+}
+
+.custom-working-hours {
+    height: 48px;
+}
+
+.display-notice {
+    display: inline-block;
+    margin: 0;
+}
+
+.data-loader {
+    background: #FFF;
+    width: 65px;
+    margin: auto;
+    padding-top: 40px;
+
+}
+
+.data-loading {
+    width: 12px;
+    height: 12px;
+    background: #FFF;
+    border-radius: 100%;
+    float: left;
+    margin-right: 7px;
+}
+
+.data-loading-0 {
+    animation: bounce 1s infinite;
+    animation-delay: .1s;
+    background: #0D6EFD
+}
+
+.data-loading-1 {
+    animation: bounce 1s infinite;
+    animation-delay: .3s;
+    background: #0D6EFD;
+}
+
+.data-loading-2 {
+    animation: bounce 1s infinite ease;
+    animation-delay: .5s;
+    background: #0D6EFD;
+}
+
+@keyframes bounce {
+
+    0%,
+    100% {
+        opacity: 1;
+    }
+
+    60% {
+        opacity: .0;
+
+    }
+}
